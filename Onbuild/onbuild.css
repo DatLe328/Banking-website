@@ -1,0 +1,19 @@
+.onbuild {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    font-size: 30px;
+}
+.onbuild > span {
+    color: red;
+    object-position: center;
+    text-align: center;
+}
+.back-link:link {
+    color: darkblue !important;
+}
+.back-link:visited {
+    color: darkblue;
+}
+.back-link:hover {
+    color: lightblue;
+}

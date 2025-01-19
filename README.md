@@ -1,2 +1,2 @@
 # Banking-website
-Simple html, css, js project
+Start index.html to run website

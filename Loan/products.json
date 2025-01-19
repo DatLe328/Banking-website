@@ -1,0 +1,79 @@
+{
+    "products":[
+        {
+          "id":"1",
+          "src":"images/loan01.jpg",
+          "name":"Mua nhà đất thổ cư"
+        },
+        {
+          "id":"2",
+          "src":"images/loan01.jpg",
+          "name":"Mua nhà dự án"
+        },
+        {
+          "id":"3",
+          "src":"images/loan01.jpg",
+          "name":"Vay xây, sửa chữa và trang thiết bị nội thất nhà ở"
+        },
+        {
+          "id":"4",
+          "src":"images/loan02.jpg",
+          "name":"Cho vay SXKD ngắn hạn"
+        },
+        {
+          "id":"5",
+          "src":"images/loan02.jpg",
+          "name":"Cho vay SXKD trung, dài hạn"
+        },
+        {
+          "id":"6",
+          "src":"images/loan03.jpg",
+          "name":"Cho vay mua ô tô"
+        },
+        {
+          "id":"7",
+          "src":"images/loan05.jpg",
+          "name":"Cho vay tiêu dùng có tài sản đảm bảo"
+        },
+        {
+          "id":"8",
+          "src":"images/loan06.png",
+          "name":"Cho vay tín chấp"
+        },
+        {
+          "id":"9",
+          "src":"images/loan07.png",
+          "name":"Cho vay cầm cố giấy tờ có giá"
+        },
+        {
+          "id":"10",
+          "src":"images/loan08.jpg",
+          "name":"Cho vay tín chấp dành cho cán bộ công nhân viên chức nhà nước"
+        },
+        {
+          "id":"11",
+          "src":"images/loan09.jpg",
+          "name":"Cho vay thấy chi/Cho vay rút vốn nhanh khách hàng cá nhân"
+        },
+        {
+          "id":"12",
+          "src":"images/loan10.jpg",
+          "name":"Cấp hạn mức tín chấp tự động dành cho Quân nhân"
+        },
+        {
+          "id":"13",
+          "src":"images/loan11.jpg",
+          "name":"Cho vay ứng trước tiền bán chứng khoán"
+        },
+        {
+          "id":"14",
+          "src":"images/loan12.jpg",
+          "name":"Cho vay cổ phần hóa"
+        },
+        {
+          "id":"15",
+          "src":"images/loan01.jpg",
+          "name":"Vay xây, sửa chữa và trang thiết bị nội thất nhà ở"
+        }
+      ]
+}

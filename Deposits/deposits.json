@@ -1,0 +1,64 @@
+{
+    "products": [
+        {
+          "id":"1",
+          "src":"images/deposit1.png",
+          "name":"Tiền gửi cố định"
+        },
+        {
+          "id":"2",
+          "src":"images/deposit2.png",
+          "name":"Tiền gửi số tích lũy"
+        },
+        {
+          "id":"3",
+          "src":"images/deposit3.png",
+          "name":"Chứng chỉ tiền gửi tích lũy CDs"
+        },
+        {
+          "id":"4",
+          "src":"images/deposit4.png",
+          "name":"Tiền gửi Bình An Phú Quý"
+        },
+        {
+          "id":"5",
+          "src":"images/deposit5.png",
+          "name":"Tiền gửi tiết kiệm dân cư"
+        },
+        {
+          "id":"6",
+          "src":"images/deposit6.png",
+          "name":"Tiết kiệm Khách hàng cá nhân"
+        },
+        {
+          "id":"7",
+          "src":"images/deposit3.png",
+          "name":"Tiết kiệm Trung dài hạn linh hoạt"
+        },
+        {
+          "id":"8",
+          "src":"images/deposit2.png",
+          "name":"Tiết kiệm Đặc Quyền"
+        },
+        {
+          "id":"9",
+          "src":"images/deposit4.png",
+          "name":"Tiền gửi số"
+        },
+        {
+          "id":"10",
+          "src":"images/deposit1.png",
+          "name":"Tiết kiệm Tích lũy thông minh"
+        },
+        {
+          "id":"11",
+          "src":"images/deposit6.png",
+          "name":"Tiết kiệm cho con"
+        },
+        {
+          "id":"12",
+          "src":"images/deposit2.png",
+          "name":"Điều kiện, điều khoản giao dịch thanh toán"
+        }
+      ]
+}

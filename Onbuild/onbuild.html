@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngân hàng quân đội</title>
+    <link rel="stylesheet" href="onbuild.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="shortcut icon" href="../images/logo.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script src="onbuild.js"></script>
+    <script src="../function.js"></script>
+    <script>
+        wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animate__animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+    </script>
+</head>
+<body>
+    <section class="nav">
+        <div class="clock clock-func">
+            <span>00:00</span>
+        </div>
+        <div class="home clearfix">
+            <ul class="left">
+                <li><a href="../index.html">Cá nhân</a></li>
+                <li><a href="javascript:;">Doanh nghiệp vừa và nhỏ</a></li>
+                <li><a href="javascript:;">Doanh nghiệp lớn</a></li>
+                <li class="dropdown">
+                    <a href="../Card-service/card-service.html">Sản phẩm<i class="fa-solid fa-chevron-down" style="scale: 80%;"></i></a>
+                    <ul class="dropdown-container">
+                        <li>
+                            <img src="../images/DichVuThe.svg" alt="">
+                            <a href="../Card-service/card-service.html">Dịch vụ thẻ</a>
+                        </li>
+                        <li>
+                            <img src="../images/TienGui.png" alt="">
+                            <a href="../Deposits/deposits.html">Tiền gửi</a>
+                        </li>
+                        <li>
+                            <img src="../images/ChuyenTien.svg" alt="">
+                            <a href="../Transfer-payment/transfer-payment.html">Chuyển tiền, thanh toán</a>
+                        </li>
+                        <li>
+                            <img src="../images/ChoVay.svg" alt="">
+                            <a href="../Loan/loan.html">Cho vay</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="javascript:;">Về chúng tôi</a></li>
+            </ul>
+            <ul class="right">
+                <li>
+                    <a href="../Login/login.html"><i class="fa-solid fa-user"></i> Tài khoản</a>
+                </li>
+                <li><a href="javascript:;"><i class="fa-solid fa-floppy-disk"></i> Tuyển dụng</a></li>
+            </ul>
+        </div>
+
+
+        <div id="home-slider">
+            <div id="list">
+                
+            </div>
+            <div class="buttons">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <ul class="dots">
+                
+            </ul>
+        </div>
+    </section>
+
+    <div class="onbuild">
+        <span class="bold">Trang này đang được xây dựng</span>
+        <a href="../index.html" class="back-link">[ Quay về trang chủ ]</a>
+    </div>
+    <section class="footer">
+        <div class="footer-service">
+            <h1>Trung tâm phục vụ khách hàng 24/7</h1>
+            <div class="service">
+                <div class="service-left">
+                    <i class="fa-solid fa-phone" class="footer-icon"></i>
+                    <span><b>Hotline</b></span>
+                    <p class="footer-icon">1900 545426 </p>
+                </div>
+                <div class="service-right">
+                    <i class="fa-solid fa-envelope" class="footer-icon"></i>
+                    <span><b>Email cho chúng tôi</b></span>
+                    <p><a href="mailto:" class="mailto">onlinebanking@bank.com.bn</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-end clearfix">
+            <div class="end-left">
+                <p>Bản quyền &copy 2023 thuộc về Ngân hàng điện tử. Bảo lưu mọi quyền</p>
+            </div>
+            <div class="end-right">
+                <ul>
+                    <li><a href="javascripts:;">Điều khoản sử dụng</a></li>
+                    <li><a href="javascripts:;">An toàn bảo mật</a></li>
+                    <li><a href="javascripts:;"><i class="fa-brands fa-facebook"></i> Kết nối với chúng tôi</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

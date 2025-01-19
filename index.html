@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngân hàng điện tử</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="shortcut icon" href="images/logo.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script src="function.js"></script>
+    <script>
+        wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animate__animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+    </script>
+</head>
+<body>
+    <section class="nav">
+
+        <!-- MENU -->
+        <div class="clock-home clock-func">
+            <span>00:00</span>
+        </div>
+        <div class="home clearfix">
+            <ul class="left">
+                <li><a href="javascript:;">Cá nhân</a></li>
+                <li><a href="Onbuild/onbuild.html">Doanh nghiệp vừa và nhỏ</a></li>
+                <li><a href="Onbuild/onbuild.html">Doanh nghiệp lớn</a></li>
+                <li class="dropdown">
+                    <a href="Card-service/card-service.html">Sản phẩm<i class="fa-solid fa-chevron-down" style="scale: 80%;"></i></a>
+                    <ul class="dropdown-container">
+                        <li>
+                            <img src="images/DichVuThe.svg" alt="">
+                            <a href="Card-service/card-service.html">Dịch vụ thẻ</a>
+                        </li>
+                        <li>
+                            <img src="images/TienGui.png" alt="">
+                            <a href="Deposits/deposits.html">Tiền gửi</a>
+                        </li>
+                        <li>
+                            <img src="images/ChuyenTien.svg" alt="">
+                            <a href="Transfer-payment/transfer-payment.html">Chuyển tiền, thanh toán</a>
+                        </li>
+                        <li>
+                            <img src="images/ChoVay.svg" alt="">
+                            <a href="Loan/loan.html">Cho vay</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="Onbuild/onbuild.html">Về chúng tôi</a></li>
+            </ul>
+            <ul class="right">
+                <li class="dropdown">
+                    <a href="Login/login.html"><i class="fa-solid fa-user"></i> Tài khoản</a>
+                </li>
+                <li><a href="Onbuild/onbuild.html"><i class="fa-solid fa-floppy-disk"></i> Tuyển dụng</a></li>
+            </ul>
+        </div>
+
+        <!-- SLIDE SHOW -->
+        <div id="home-slider">
+            <div id="list">
+                
+            </div>
+            <div class="buttons">
+                <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <ul class="dots">
+                
+            </ul>
+        </div>
+    </section>
+    
+    
+    <!-- MAIN CONTENT -->
+    <section class="main clearfix">
+        <div class="content flexbox">
+            <img src="images/Home/main1.webp" alt="" class="wow animate__animated animate__fadeIn">
+            <div>
+                <h1 class="wow animate__animated animate__slideInDown heading1-style">
+                    CHÚNG TÔI LÀ NGÂN HÀNG <br/>
+                    HỖ TRỢ BITCOIN
+                </h1>
+                <p class="description wow animate__animated animate__slideInDown">
+                    Phát triển và bảo vệ tài sản của bạn bằng <br/>
+                    tài khoản Đô la Mỹ an toàn và thực hiện các <br/>
+                    giao dịch chuỗi khối với stablecoin từ mọi nơi.
+                </p>
+                <table>
+                    <tr>
+                        <td class="wow animate__animated animate__fadeIn">
+                            <img src="images/Home/content1-01.svg" alt="" class="content1-icon">
+                        </td>
+                        <td class="wow animate__animated animate__slideInRight">
+                            Lãi suất hàng năm cao đối với USD và BTC với các khoản thanh toán hàng ngày
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="wow animate__animated animate__fadeIn">
+                            <img src="images/Home/content1-02.svg" alt="" class="content1-icon">
+                        </td>
+                        <td class="wow animate__animated animate__slideInRight">
+                            Chuyển đổi stablecoin tức thì sang và từ Đô la Mỹ
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="wow animate__animated animate__fadeIn">
+                            <img src="images/Home/content1-03.svg" alt="" class="content1-icon">
+                        </td>
+                        <td class="wow animate__animated animate__slideInRight">
+                            Không bị khóa quyền truy cập 24/7 vào ví
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="wow animate__animated animate__fadeIn">
+                            <img src="images/Home/content1-04.svg" alt="" class="content1-icon">
+                        </td>
+                        <td class="wow animate__animated animate__slideInRight">
+                            Ngân hàng được cấp phép và quản lý đầy đủ
+                        </td>
+                    </tr>
+                </table>
+                <a href="Card-service/card-service.html" class="button wow animate__animated animate__fadeIn">Mở tài khoản</a>
+            </div>
+        </div>
+        <div class="content flexbox">
+            <div>
+                <h1 class="wow animate__animated animate__fadeInLeft heading1-style">                   
+                    KIẾM TIỀN LÃI HÀNG NĂM DỄ DÀNG 4,1%<br/>
+                    KỂ TỪ NGÀY ĐẦU
+                </h1>
+                <p class="wow animate__animated animate__fadeInLeft description">                
+                    Tại sao chờ đợi? Kể từ thời điểm bạn gửi tiền, bạn sẽ <br/>
+                    bắt đầu kiếm được tiền lãi 4,1% được trả hàng ngày và <br/>
+                    không chậm trễ. Đó là một cách dễ dàng để bảo vệ và phát <br/>
+                    triển sự giàu có của bạn.
+                </p>
+                <a href="Deposits/deposits.html" class="button wow animate__animated animate__fadeIn">Gửi tiết kiệm</a>
+            </div>
+            <img src="images/Home/main2.webp" alt="" class="wow animate__animated animate__fadeInRight">
+        </div>
+
+        <div class="content flexbox">
+            <img src="images/Home/main3.webp" alt="" class="wow animate__animated animate__fadeIn">
+            <div>
+                <h1 class="heading1-style wow animate__animated animate__slideInLeft">
+                    KIẾM 1% LÃI SUẤT HÀNG NĂM <br/>
+                    TRÊN BITCOIN CỦA BẠN, <br/>
+                    THANH TOÁN HÀNG NGÀY
+                </h1>
+                <p class="description wow animate__animated animate__slideInRight">
+                    Đừng đợi thị trường biến động — kiếm 1% <br/>
+                    tiền lãi từ Bitcoin của bạn và yên tâm lưu <br/>
+                    trữ nó một cách an toàn tại một trong những <br/>
+                    kho dự trữ BTC lớn nhất thế giới.
+                </p>
+            </div>
+        </div>
+
+        <div class="content content4 flexbox wow animate__animated animate__fadeIn">
+            <div>
+                <h1 class="heading1-style wow animate__animated animate__slideInRight">
+                    TIẾP CẬN TÀI KHOẢN CỦA BẠN <br/>
+                    MÀ KHÔNG GIỚI HẠN
+                </h1>
+                <p class="description wow animate__animated animate__slideInRight">
+                    Tiền của bạn, điều kiện của bạn. Chúng tôi tin <br/>
+                    rằng bạn nên có quyền truy cập theo yêu cầu vào <br/>
+                    bất kỳ lúc nào và từ bất kỳ đâu, không có thời <br/>
+                    gian khóa hoặc phí ẩn.
+                </p>
+            </div>
+            <img src="images/Home/main4.webp" alt="">
+        </div>
+    </section>
+    <!-- PRODUCT -->
+    <section id="products-out">
+        <h1 class="wow animate__animated animate__fadeInUp">Sản phẩm Khách hàng Cá nhân nổi bật</h1>
+        <div class="products-link wow animate__animated animate__fadeInUp">
+            <a href="Card-service/card-service.html" class="bold">XEM TOÀN BỘ SẢN PHẨM</a>
+        </div>
+        <img src="images/productBg.png" alt="">
+        <div id="products-slider">
+            <div id="products" class="wow animate__animated animate__slideInRight">
+                
+            </div>
+        </div>
+        <div id="products-btn">
+            <button id="products-prev"><i class="fa-solid fa-chevron-left"></i></button>
+            <button id="products-next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+        <div class="footer-service">
+            <h1>Trung tâm phục vụ khách hàng 24/7</h1>
+            <div class="service">
+                <div class="service-left">
+                    <i class="fa-solid fa-phone" class="footer-icon"></i>
+                    <span><b>Hotline</b></span>
+                    <p class="footer-icon">1900 545426 </p>
+                </div>
+                <div class="service-right">
+                    <i class="fa-solid fa-envelope" class="footer-icon"></i>
+                    <span><b>Email cho chúng tôi</b></span>
+                    <p><a href="mailto:" class="mailto">onlinebanking@bank.com.bn</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-end clearfix">
+            <div class="end-left">
+                <p>Bản quyền &copy 2023 thuộc về Ngân hàng điện tử. Bảo lưu mọi quyền</p>
+            </div>
+            <div class="end-right">
+                <ul>
+                    <li><a href="javascripts:;">Điều khoản sử dụng</a></li>
+                    <li><a href="javascripts:;">An toàn bảo mật</a></li>
+                    <li><a href="javascripts:;"><i class="fa-brands fa-facebook"></i> Kết nối với chúng tôi</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <button onclick="scrollToTop()" id="goToTopBtn" title="Go to Top"><i class="fa-solid fa-angles-up"></i></button>
+</body>
+</html>

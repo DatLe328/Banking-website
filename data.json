@@ -1,0 +1,55 @@
+{
+    "slideImg": [
+        {
+            "src":"images/Home/home1.png",
+            "id":"1"
+        },
+        {
+            "src":"images/Home/home2.jpg",
+            "id":"2"
+        },
+        {
+            "src":"images/Home/home3.jpg",
+            "id":"3"
+        },
+        {
+            "src":"images/Home/home4.jpg",
+            "id":"4"
+        },
+        {
+            "src":"images/Home/home5.png",
+            "id":"5"
+        },
+        {
+            "src":"images/Home/home6.jpg",
+            "id":"6"
+        }
+    ],
+    "product": [
+        {
+            "src":"images/Products icon/product-icon1.svg",
+            "title":"1. APP ONLINEBANK",
+            "description":"Ứng dụng ngân hàng của OLB trên điện thoại di động, thực hiện các giao dịch tài chính, thanh toán với thao tác đơn giản thuận tiện."
+        },
+        {
+            "src":"images/Products icon/product-icon2.svg",
+            "title":"2. VAY NHANH TRÊN APP",
+            "description":"Là sản phẩm cho vay mục đích tiêu dùng cá nhân dành cho khách hàng cá nhân có thẻ tính dụng do OLB phát hành mức tối đa lên đến 75% hạn mức thẻ."
+        },
+        {
+            "src":"images/Products icon/product-icon3.svg",
+            "title":"3. TIỀN GỬI",
+            "description":"Với lãi suất hấp dẫn cùng kỳ hạn và hình thức đáo hạn linh hoạt, các sản phẩm tiền gửi tiết kiệm mang lại nhiều lựa chọn phù hợp."
+        },
+        {
+            "src":"images/Products icon/product-icon4.svg",
+            "title":"4. CHO VAY",
+            "description":"Các sản phẩm cho vay đa dạng linh hoạt, phù hợp với nhiều mục đích khác nhau. Thủ tục đơn giản, dễ dàng thuận tiện và giải ngân nhanh chóng."
+        },
+        {
+            "src":"images/Products icon/product-icon5.svg",
+            "title":"5. THẺ OLB",
+            "description":"Thủ tục phát hành nhanh chóng, thanh toán tiện lợi trên toàn thế giới với nhiềuchương trình ưu đãi hấp dẫn dành cho các chủ thẻ."
+        }
+    ]
+}

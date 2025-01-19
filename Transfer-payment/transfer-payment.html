@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển tiền thanh toán</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../banner-product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="shortcut icon" href="../images/logo.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="transfer-payment.js"></script>
+    <script src="../function.js"></script>
+    <script>
+        wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animate__animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+    </script>
+</head>
+<body>
+    <section class="nav">
+        <div class="clock clock-func">
+            <span>00:00</span>
+        </div>
+        <div class="home clearfix">
+            <ul class="left">
+                <li><a href="../index.html">Cá nhân</a></li>
+                <li><a href="../Onbuild/onbuild.html">Doanh nghiệp vừa và nhỏ</a></li>
+                <li><a href="../Onbuild/onbuild.html">Doanh nghiệp lớn</a></li>
+                <li class="dropdown">
+                    <a href="../Card-service/card-service.html">Sản phẩm<i class="fa-solid fa-chevron-down" style="scale: 80%;"></i></a>
+                    <ul class="dropdown-container">
+                        <li>
+                            <img src="../images/DichVuThe.svg" alt="">
+                            <a href="../Card-service/card-service.html">Dịch vụ thẻ</a>
+                        </li>
+                        <li>
+                            <img src="../images/TienGui.png" alt="">
+                            <a href="../Deposits/deposits.html">Tiền gửi</a>
+                        </li>
+                        <li>
+                            <img src="../images/ChuyenTien.svg" alt="">
+                            <a href="javascript:;">Chuyển tiền, thanh toán</a>
+                        </li>
+                        <li>
+                            <img src="../images/ChoVay.svg" alt="">
+                            <a href="../Loan/loan.html">Cho vay</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="../Onbuild/onbuild.html">Về chúng tôi</a></li>
+            </ul>
+            <ul class="right">
+                <li>
+                    <a href="../Login/login.html"><i class="fa-solid fa-user"></i> Tài khoản</a>
+                </li>
+                <li><a href="../Onbuild/onbuild.html"><i class="fa-solid fa-floppy-disk"></i> Tuyển dụng</a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <div class="banner">
+        <img src="images/tf-banner.jpg" alt="">
+        <div>
+            <h3>Cá nhân</h3>
+        </div>
+    </div>
+    <div class="tool-box">
+        <ul>
+            <li>
+                <a href="../Deposits/deposits.html">
+                    <img src="https://www.mbbank.com.vn/resources/files/ICON-Moi/products-list-huy-dong.png" alt="">
+                    <p>TIỀN GỬI</p>
+                </a>
+            </li>
+            <li>
+                <a href="../Loan/loan.html">
+                    <img src="https://www.mbbank.com.vn/resources/files/ICON-Moi/products-list-cho-vay.png" alt="">
+                    <p>CHO VAY</p>
+                </a>
+            <li>
+                <a href="../Card-service/card-service.html">
+                    <img src="https://www.mbbank.com.vn/resources/files/ICON-Moi/products-list-the.png" alt="">
+                    <p>DỊCH VỤ THẺ</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" class="visited">
+                    <img src="https://www.mbbank.com.vn/resources/files/ICON-Moi/products-list-chuyentien.png" alt="">
+                    <p>CHUYỂN TIỀN, THANH TOÁN</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <input type="text" id="myInput" onkeyup="searchEngine()" placeholder="Search for names..">
+
+    <div>
+        <h1>Chuyển tiền thanh toán</h1>
+        <p id="alert" style="display: none;">Không tìm thấy sản phẩm</p>
+        <ul id="product-list"></ul>
+    </div>
+    
+    <section class="footer">
+        <div class="footer-service">
+            <h1>Trung tâm phục vụ khách hàng 24/7</h1>
+            <div class="service">
+                <div class="service-left">
+                    <i class="fa-solid fa-phone" class="footer-icon"></i>
+                    <span><b>Hotline</b></span>
+                    <p class="footer-icon">1900 545426 </p>
+                </div>
+                <div class="service-right">
+                    <i class="fa-solid fa-envelope" class="footer-icon"></i>
+                    <span><b>Email cho chúng tôi</b></span>
+                    <p><a href="mailto:" class="mailto">onlinebanking@bank.com.bn</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-end clearfix">
+            <div class="end-left">
+                <p>Bản quyền &copy 2023 thuộc về Ngân hàng điện tử. Bảo lưu mọi quyền</p>
+            </div>
+            <div class="end-right">
+                <ul>
+                    <li><a href="javascripts:;">Điều khoản sử dụng</a></li>
+                    <li><a href="javascripts:;">An toàn bảo mật</a></li>
+                    <li><a href="javascripts:;"><i class="fa-brands fa-facebook"></i>Kết nối với chúng tôi</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

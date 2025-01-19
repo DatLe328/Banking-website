@@ -1,0 +1,40 @@
+{
+    "products":[
+      {
+        "id":"1",
+        "src":"images/tf-pm1.jpg",
+        "name":"Chuyển tiền nhanh Western Union"
+      },
+      {
+        "id":"2",
+        "src":"images/tf-pm2.jpg",
+        "name":"Dịch vụ chuyển tiền quốc tế cho mục đích chữa bệnh"
+      },
+      {
+        "id":"3",
+        "src":"images/tf-pm3.jpg",
+        "name":"Chuyển tiền ra nước ngoài qua tài khoản"
+      },
+      {
+        "id":"4",
+        "src":"images/tf-pm4.jpg",
+        "name":"Chuyển tiền du học"
+      },
+      {
+        "id":"5",
+        "src":"images/tf-pm5.jpg",
+        "name":"Chuyển tiền định cư"
+      },
+      {
+        "id":"6",
+        "src":"images/tf-pm6.jpg",
+        "name":"Dịch vụ nhận tiền qua Swift"
+      },
+      {
+        "id":"7",
+        "src":"images/tf-pm7.jpg",
+        "name":"Dịch vụ Quy đổi ngoại tệ tự động cho KHCN"
+      }
+    ]
+    
+  }
